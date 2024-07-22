@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bod{
+  background-color: rgb(34, 34, 60);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+.join{
+  background-color: rgb(56, 56, 66);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px;
+  border-radius: 20px;
+}
+p{
+  width: 20vw;
+  font-weight: 700;
+}
+.dic{
+  position: relative;
+  top: 20px;
+}
+.line{
+  width: 100%;
+}
+
+@media screen and (max-width: 960px){
+  .join{
+    height: fit-content;
+    width: 95%;
+    padding: 30px;
+  }
+p{
+  width: 90vw;
+}
+.line{
+  width: 100%;
+}
+
+}
